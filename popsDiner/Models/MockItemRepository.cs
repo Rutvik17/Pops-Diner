@@ -15,9 +15,9 @@ namespace popsDiner.Models
             {
                 return new List<Item>
                 {
-                    new Item {ItemId = 1, Name="Big Mac Burger", Price=5.95M, shortDescription="", LongDescription="", Category = _categoryRepository.Categories.ToList()[0],ImageUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/strawberrypie.jpg", InStock=true, isItemOfTheWeek=true, ImageThumbnailUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/strawberrypiesmall.jpg"},
-                    new Item {ItemId = 2, Name="Tripple Thick", Price=3.95M, shortDescription="", LongDescription="", Category = _categoryRepository.Categories.ToList()[1],ImageUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecake.jpg", InStock=true, isItemOfTheWeek=false, ImageThumbnailUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecakesmall.jpg"},
-                    new Item {ItemId = 3, Name="Burger Combo", Price=10.95M, shortDescription="", LongDescription="", Category = _categoryRepository.Categories.ToList()[2],ImageUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbpie.jpg", InStock=true, isItemOfTheWeek=false, ImageThumbnailUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbpiesmall.jpg"},
+                    new Item {ItemId = 1, Name="Big Mac Burger", Price=5.95M, shortDescription="", LongDescription="", Category = _categoryRepository.Categories.ToList()[0],ImageUrl="https://checkers.com/wp-content/uploads/2017/03/Spicy-Chicken-Sandwich-V1.jpg", InStock=true, isItemOfTheWeek=true, ImageThumbnailUrl="https://checkers.com/wp-content/uploads/2017/03/Spicy-Chicken-Sandwich-V1.jpg"},
+                    new Item {ItemId = 2, Name="Tripple Thick", Price=9.95M, shortDescription="", LongDescription="", Category = _categoryRepository.Categories.ToList()[1],ImageUrl="https://sjmagazine.net/wp-content/uploads/cache/2017/01/milkshake/2259248381.jpg", InStock=true, isItemOfTheWeek=false, ImageThumbnailUrl="https://sjmagazine.net/wp-content/uploads/cache/2017/01/milkshake/2259248381.jpg"},
+                    new Item {ItemId = 3, Name="Burger Combo", Price=10.95M, shortDescription="", LongDescription="", Category = _categoryRepository.Categories.ToList()[2],ImageUrl="https://media.socialdeal.nl/deal/horeca-t-kwadraat-15081212565167.jpg", InStock=true, isItemOfTheWeek=false, ImageThumbnailUrl="https://media.socialdeal.nl/deal/horeca-t-kwadraat-15081212565167.jpg"},
                 };
             }
         }

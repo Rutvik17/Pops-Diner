@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using popsDiner.Models;
 
-namespace popsDiner.ViewsModel
+namespace popsDiner.ViewModels
 {
     public class ItemsListViewModel
     {

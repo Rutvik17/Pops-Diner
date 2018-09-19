@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "b3bea70f390279628e1954841e95e26e6ea8a8c4"
+    "signature": "92640b190bcbc24b9f323e5123083a50a17401db"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "popsDiner/1.0.0": {
         "dependencies": {
+          "Bower": "1.3.11",
           "Microsoft.AspNet.Mvc": "5.2.6",
           "Microsoft.AspNet.Razor": "3.2.6",
           "Microsoft.AspNetCore": "2.1.3",
@@ -35,7 +36,8 @@
           "Microsoft.AspNetCore.Server.Kestrel": "2.1.3",
           "Microsoft.AspNetCore.StaticFiles": "2.1.1",
           "Microsoft.Extensions.Logging.Console": "2.1.1",
-          "Microsoft.NETCore.App": "2.1.0"
+          "Microsoft.NETCore.App": "2.1.0",
+          "bootstrap": "4.1.3"
         },
         "runtime": {
           "popsDiner.dll": {}
@@ -44,6 +46,19 @@
           "popsDiner.dll": {}
         }
       },
+      "bootstrap/4.1.3": {
+        "dependencies": {
+          "jQuery": "3.0.0",
+          "popper.js": "1.14.0"
+        }
+      },
+      "Bower/1.3.11": {
+        "dependencies": {
+          "NoGit": "0.0.8",
+          "Node.js": "0.10.28"
+        }
+      },
+      "jQuery/3.0.0": {},
       "Microsoft.AspNet.Mvc/5.2.6": {
         "dependencies": {
           "Microsoft.AspNet.Razor": "3.2.6",
@@ -684,6 +699,13 @@
           "Microsoft.NETCore.Platforms": "2.1.0"
         }
       },
+      "Node.js/0.10.28": {},
+      "NoGit/0.0.8": {
+        "dependencies": {
+          "Node.js": "0.10.28"
+        }
+      },
+      "popper.js/1.14.0": {},
       "System.Threading.Tasks.Extensions/4.5.1": {},
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
@@ -3341,6 +3363,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "bootstrap/4.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eyaT3ZkeOGyj3qXmQJziQNyh+bYzNKtx9QrxETNgzqOxWvsvNoGrAr03426N7AMG+VJayKWtjg4FpGYmPhyuTg==",
+      "path": "bootstrap/4.1.3",
+      "hashPath": "bootstrap.4.1.3.nupkg.sha512"
+    },
+    "Bower/1.3.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JNo9rMr25g1ZA1hv8aTzkDTiglq3FGTPoNOqNTGrwckYqJ9/DulmlndUduhPZWJXnIlYxo0krbwgwBtrCZvNqQ==",
+      "path": "bower/1.3.11",
+      "hashPath": "bower.1.3.11.nupkg.sha512"
+    },
+    "jQuery/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFfntV19HzCtKdJWOp/XT9PUY3SslokTDDLFJZdBug36j1XVhw1+vPQ/n7Gd5y+jdpesn5B1m1yn1qIUq57jlA==",
+      "path": "jquery/3.0.0",
+      "hashPath": "jquery.3.0.0.nupkg.sha512"
+    },
     "Microsoft.AspNet.Mvc/5.2.6": {
       "type": "package",
       "serviceable": true,
@@ -3571,6 +3614,27 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Node.js/0.10.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+dTpiaX8d5gyADdlR0Sz227IvMZ/QJWtyobqHDPqcJRykGdOfskW8yxde9WQRxY/Uyp+u5JN3KbBb2rkYdkT2Q==",
+      "path": "node.js/0.10.28",
+      "hashPath": "node.js.0.10.28.nupkg.sha512"
+    },
+    "NoGit/0.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5/qdluqNIPDSeF7gQ4Ab9xpFiyQrvfBtm/eGT5mErTCaEIdMNFidVlxMWc4ShPO7JK2KngyF5bybD3gxFCi/5A==",
+      "path": "nogit/0.0.8",
+      "hashPath": "nogit.0.0.8.nupkg.sha512"
+    },
+    "popper.js/1.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SPxZdXknelgQ015wey7GMZvsVdt/SyEmHYORhEp5k/uF9MUk9DPtkn+6dR98fud2hVWJjZm9KKr474+r7WQt+A==",
+      "path": "popper.js/1.14.0",
+      "hashPath": "popper.js.1.14.0.nupkg.sha512"
     },
     "System.Threading.Tasks.Extensions/4.5.1": {
       "type": "package",
