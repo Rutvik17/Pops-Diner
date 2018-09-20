@@ -19,7 +19,7 @@ namespace popsDiner.Components
         public IViewComponentResult Invoke()
         {
             var items = _shoppingCart.GetShoppingCartItems();
-            _shoppingCart.shoppingCartItems = items;
+            _shoppingCart.ShoppingCartItems = items;
 
             var ShoppingCartViewModel = new ShoppingCartViewModel
             {

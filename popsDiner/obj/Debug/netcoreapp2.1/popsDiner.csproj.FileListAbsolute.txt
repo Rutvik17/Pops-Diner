@@ -71,3 +71,5 @@ C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcorea
 C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShoppingCartSummary\Default.g.cshtml.cs
 C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ItemOfTheWeek.g.cshtml.cs
 C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Contact\Index.g.cshtml.cs
+C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryMenu\Default.g.cshtml.cs
+C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Item\Details.g.cshtml.cs

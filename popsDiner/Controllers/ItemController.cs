@@ -21,13 +21,35 @@ namespace popsDiner.Controllers
             _categoryRepository = categoryRepository;
         }
 
-        public ViewResult List()
+        public ViewResult List(string category)
         {
-            ItemsListViewModel itemsListViewModel = new ItemsListViewModel();
-            itemsListViewModel.Items = _itemRepository.Items;
+            IEnumerable<Item> Items;
+            string currentCategory = string.Empty;
 
-            itemsListViewModel.CurrentCategory = "Burgers";
-            return View(itemsListViewModel);
+            if (string.IsNullOrEmpty(category))
+            {
+                Items = _itemRepository.Items.OrderBy(p => p.ItemId);
+                currentCategory = "All Items";
+            }
+            else
+            {
+                Items = _itemRepository.Items.Where(p => p.Category.CategoryName == category)
+                    .OrderBy(p => p.ItemId);
+                 currentCategory = _categoryRepository.Categories.FirstOrDefault(c => c.CategoryName == category).CategoryName;
+            }
+            return View(new ItemsListViewModel
+            {
+                Items = Items,
+                CurrentCategory = currentCategory
+            });
+        }
+        public IActionResult Details(int id)
+        {
+            var item = _itemRepository.GetItemById(id);
+            if (item == null)
+                return NotFound();
+
+            return View(item);
         }
     }
 }

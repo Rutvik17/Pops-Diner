@@ -12,6 +12,9 @@ body {
     background-repeat: repeat;
     font-family: 'Source Sans Pro', sans-serif;
 }
+p{
+    margin: 2px;
+}
 
 .slide-image {
     width: 100%;

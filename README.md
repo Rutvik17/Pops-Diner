@@ -1,6 +1,6 @@
 # Pop's Diner ASP.NET MVC Core Website
 
-# Welcome to Pop's Diner. This is online food order website for pop's diner.
+# Welcome to Pop's Diner. This is online food ordering website for pop's diner.
 
 This website displays Items of the week on the home page and it has a very simple and beautiful design. All the items are categorized according to categories.
 

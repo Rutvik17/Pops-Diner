@@ -19,7 +19,7 @@ namespace popsDiner.Models
         }
 
         public string ShoppingCartId { get; set; }
-        public List<ShoppingCartItem> shoppingCartItems { get; set; }
+        public List<ShoppingCartItem> ShoppingCartItems { get; set; }
         public static ShoppingCart GetCart(IServiceProvider services)
         {
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?
@@ -80,8 +80,8 @@ namespace popsDiner.Models
 
         public List<ShoppingCartItem> GetShoppingCartItems()
         {
-            return shoppingCartItems ??
-                (shoppingCartItems =
+            return ShoppingCartItems ??
+                (ShoppingCartItems =
                 _appDbContext.shoppingCartItems.Where(c => c.ShoppingCartId == ShoppingCartId)
                 .Include(s => s.Item)
                 .ToList());

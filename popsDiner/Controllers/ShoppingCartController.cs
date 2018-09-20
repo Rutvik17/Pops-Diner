@@ -21,7 +21,7 @@ namespace popsDiner.Controllers
         public ViewResult Index()
         {
             var items = _shoppingCart.GetShoppingCartItems();
-            _shoppingCart.shoppingCartItems = items;
+            _shoppingCart.ShoppingCartItems = items;
 
             var shoppingCartViewModel = new ShoppingCartViewModel
             {
@@ -33,11 +33,11 @@ namespace popsDiner.Controllers
 
         public RedirectToActionResult AddToShoppingCart(int itemId)
         {
-            var selectItem = _itemRepository.Items.FirstOrDefault(p => p.ItemId == itemId);
+            var selectedItem = _itemRepository.Items.FirstOrDefault(p => p.ItemId == itemId);
 
-            if (selectItem != null)
+            if (selectedItem != null)
             {
-                _shoppingCart.AddToCart(selectItem, 1);
+                _shoppingCart.AddToCart(selectedItem, 1);
             }
             return RedirectToAction("Index");
         }

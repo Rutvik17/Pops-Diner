@@ -1,7 +1,7 @@
 ﻿@model ShoppingCartViewModel
 
 <h2>Your shopping cart</h2>
-<h4>Here are the delicious pies in your shopping cart.</h4>
+<h4>Here are the delicious items in your shopping cart.</h4>
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
@@ -12,7 +12,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var line in Model.ShoppingCart.shoppingCartItems)
+        @foreach (var line in Model.ShoppingCart.ShoppingCartItems)
         {
             <tr>
                 <td class="text-center">@line.Amount</td>
