@@ -15,5 +15,6 @@ namespace popsDiner.Models
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Item> Items { get; set; }
+        public DbSet<ShoppingCartItem> shoppingCartItems { get; set; }
     }
 }

@@ -64,3 +64,5 @@ C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcorea
 C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\popsDiner.dll
 C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\popsDiner.pdb
 C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\popsDiner.csproj.CopyComplete
+C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ItemOverviewSummary.g.cshtml.cs
+C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\ShoppingCart\Index.g.cshtml.cs
