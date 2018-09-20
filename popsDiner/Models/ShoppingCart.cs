@@ -2,8 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -12,7 +12,7 @@ namespace popsDiner.Models
     public class ShoppingCart
     {
         private readonly AppDbContext _appDbContext;
-
+        public const string CartSessionKey = "CartId";
         private ShoppingCart(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;

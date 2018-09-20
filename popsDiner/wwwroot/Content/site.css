@@ -63,8 +63,8 @@ footer {
 }
 
 .navbar-inverse {
-    background-color: #a593c2;
-    border-color: #a593c2;
+    background-color: #31263E !important;
+    border-color: #FFFFFF;
 }
 
 .nav.navbar-nav.navbar-right li a {
