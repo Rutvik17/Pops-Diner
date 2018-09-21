@@ -47,7 +47,7 @@ namespace popsDiner.Controllers
         public IActionResult CheckoutComplete()
         {
             ViewBag.CheckoutCompleteMessage = HttpContext.User.Identity.Name +
-                                      "thanks for your order. You'll soon enjoy our delicious burgers!";
+                                      " thanks for your order. You'll soon enjoy our delicious burgers!";
             return View();
         }
     }

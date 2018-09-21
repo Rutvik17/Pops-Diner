@@ -1,7 +1,6 @@
 ﻿
 @model ShoppingCartViewModel 
 
-
 <h2>Your shopping cart</h2>
 <h4>Here are the delicious items in your shopping cart.</h4>
 <table class="table table-bordered table-striped">
@@ -11,6 +10,7 @@
             <th>Item</th>
             <th class="text-right">Price</th>
             <th class="text-right">Subtotal</th>
+           
         </tr>
     </thead>
     <tbody>
@@ -23,7 +23,6 @@
                 <td class="text-right">
                     @((line.Amount * line.Item.Price).ToString("c"))
                 </td>
-                
             </tr>
         }
     </tbody>
