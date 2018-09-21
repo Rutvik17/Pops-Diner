@@ -1,4 +1,6 @@
-﻿@model ShoppingCartViewModel
+﻿
+@model ShoppingCartViewModel 
+
 
 <h2>Your shopping cart</h2>
 <h4>Here are the delicious items in your shopping cart.</h4>
@@ -21,6 +23,7 @@
                 <td class="text-right">
                     @((line.Amount * line.Item.Price).ToString("c"))
                 </td>
+                
             </tr>
         }
     </tbody>

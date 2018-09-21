@@ -64,7 +64,7 @@ using popsDiner.ViewModels;
             WriteLiteral("    <li>\r\n        ");
             EndContext();
             BeginContext(107, 272, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52fe9e7f10e34953ba45b675a9e39bff", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ae2e50d310844fa5b286385a2f67ceb8", async() => {
                 BeginContext(159, 142, true);
                 WriteLiteral("\r\n            Cart\r\n            <span class=\"glyphicon glyphicon-shopping-cart\"></span>\r\n            <span id=\"cart-status\">\r\n                ");
                 EndContext();
