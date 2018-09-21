@@ -54,7 +54,7 @@ using popsDiner.ViewModels;
             WriteLiteral("<h1>Contact Pop\'s Diner</h1>\r\n<p>Feel free to contact us using the link below.</p>\r\n");
             EndContext();
             BeginContext(84, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e1eaade4e72477ba39dddf2de271fa6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e3a73297bc74098800e58bea368ba7d", async() => {
             }
             );
             __popsDiner_TagHelpers_EmailTagHelper = CreateTagHelper<global::popsDiner.TagHelpers.EmailTagHelper>();

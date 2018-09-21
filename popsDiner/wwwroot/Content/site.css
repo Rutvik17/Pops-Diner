@@ -39,7 +39,7 @@ p{
     }
 
 .thumbnail img {
-    width: 100%;
+    width:250px;
     height: 200px;
 }
 
@@ -50,6 +50,8 @@ p{
 
 .thumbnail {
     padding: 0;
+    width: 250px !important;
+    height: 400px;
 }
 
     .thumbnail .caption-full {

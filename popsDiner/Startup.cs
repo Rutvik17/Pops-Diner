@@ -34,6 +34,8 @@ namespace popsDiner
             services.AddTransient<IItemRepository, ItemRepository>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
+            services.AddTransient<IOrderRepository, OrderRepository>();
+
             services.AddMvc();
             services.AddDistributedMemoryCache();
             services.AddSession();
