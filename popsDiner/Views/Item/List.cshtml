@@ -4,11 +4,9 @@
 <h1>@Model.CurrentCategory</h1>
 @foreach (var item in Model.Items)
 {
-    @*<div>
-            <h2>@pie.Name</h2>
-            <h3>@pie.Price.ToString("c")</h3>
-            <h4>@pie.Category.CategoryName</h4>
-        </div>*@
-
     @Html.Partial("ItemOverviewSummary", item)
+}
+
+@section scripts{ 
+
 }
