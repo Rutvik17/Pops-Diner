@@ -78,7 +78,7 @@ WriteAttributeValue("", 104, Model.ImageThumbnailUrl, 104, 24, false);
             WriteLiteral("</h3>\r\n            <h3>\r\n                ");
             EndContext();
             BeginContext(272, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f8fc1760613471798786e2e10b70d25", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "27bab4c3d374467ebbb002fcd1ecf37c", async() => {
                 BeginContext(348, 10, false);
 #line 9 "C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\Views\Shared\ItemOverviewSummary.cshtml"
                                                                                       Write(Model.Name);
@@ -129,7 +129,7 @@ WriteAttributeValue("", 104, Model.ImageThumbnailUrl, 104, 24, false);
             WriteLiteral("</p>\r\n        </div>\r\n        <div class=\"addToCart\">\r\n            <p class=\"button\">\r\n                ");
             EndContext();
             BeginContext(524, 156, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "94341d8a634a475aa5f802a309a30b33", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "671b51f3e117456d9f4edadb7d90111b", async() => {
                 BeginContext(665, 11, true);
                 WriteLiteral("Add to cart");
                 EndContext();

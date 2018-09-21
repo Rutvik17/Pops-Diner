@@ -140,7 +140,7 @@ using popsDiner.ViewModels;
             WriteLiteral("\r\n            </td>\r\n        </tr>\r\n    </tfoot>\r\n</table>\r\n\r\n<div class=\"text-center\">\r\n    ");
             EndContext();
             BeginContext(1171, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a5330468275a47ca959c827168be10cf", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "08aee0ef48134eada2ce01305d0cdb07", async() => {
                 BeginContext(1243, 14, true);
                 WriteLiteral("Check out now!");
                 EndContext();

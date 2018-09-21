@@ -59,7 +59,7 @@ using popsDiner.ViewModels;
             WriteLiteral("\r\n<li class=\"dropdown\">\r\n    ");
             EndContext();
             BeginContext(59, 137, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "953266662cd04b298c08f9f915981450", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b53e68490aa744438f19662883f79367", async() => {
                 BeginContext(166, 26, true);
                 WriteLiteral("Items<b class=\"caret\"></b>");
                 EndContext();
@@ -94,7 +94,7 @@ using popsDiner.ViewModels;
             WriteLiteral("            <li>\r\n                ");
             EndContext();
             BeginContext(317, 133, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9ce2d945cf7488898df01e6fc7afa83", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0d4a307cbb504a4bbff2a12aafe1ec92", async() => {
                 BeginContext(425, 21, false);
 #line 12 "C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\Views\Shared\Components\CategoryMenu\Default.cshtml"
                                                           Write(category.CategoryName);
@@ -143,7 +143,7 @@ using popsDiner.ViewModels;
             WriteLiteral("        <li class=\"divider\"></li>\r\n        <li>\r\n            ");
             EndContext();
             BeginContext(543, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "45aa02d3ae734b69a0730fd96caa4963", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c217e1517c64479e80245c4836a8f662", async() => {
                 BeginContext(608, 14, true);
                 WriteLiteral("View all items");
                 EndContext();

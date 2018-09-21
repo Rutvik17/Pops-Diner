@@ -75,3 +75,7 @@ C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcorea
 C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Item\Details.g.cshtml.cs
 C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Order\Checkout.g.cshtml.cs
 C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Order\CheckoutComplete.g.cshtml.cs
+C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Account\Logout.g.cshtml.cs
+C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\patel\OneDrive\Documents\GitHub\Pops-Diner\popsDiner\obj\Debug\netcoreapp2.1\Razor\Views\Shared\LoginPartial.g.cshtml.cs
